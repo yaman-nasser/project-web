@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GL6AyPQNFMMn0Bw0SHAHCVedX/nRtFEm5dO/fRlay7Y=",
+  "Source": "backend_web",
+  "BasePath": "_content/backend_web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
