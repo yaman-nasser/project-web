@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2025-03-28T20:38:39.1549406Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2025-03-28T22:01:28.9501683Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "UVstor"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "7bfb4e11-e608-4d90-a3c2-78ebdaef2476"
+    }
+  }
+}

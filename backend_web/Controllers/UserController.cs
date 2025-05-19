@@ -17,25 +17,84 @@ namespace backend_web.Controllers
         }
         private readonly WebDbContext db;
 
+        //GETallUser
+        [HttpGet("All")]
+        public async Task<ActionResult<IEnumerable<mdlUser>>> GetAllUsers()
+        {
+            var users = await db.users
+                .Select(u => new mdlUser
+                {
+                    Id=u.Id,
+                    Name = u.Name,
+                    Email = u.Email,
+                    Phone = u.Phone,
+                    Major = u.Major,
+                    PostCount = u.products.Count
+                })
+                .ToListAsync();
 
+            return Ok(users);
+        }
 
         //sign up by user.....................
         [HttpPost]
-        public async Task<IActionResult> Add(mdlUser addUser)
+        public async Task<IActionResult> AddUser([FromForm] mdlUser mdl)
         {
-
-            var emploee = new User()
+            try
             {
-                Name = addUser.Name,
-                Email = addUser.Email,
-                Password = addUser.Password,
-                Phone = addUser.Phone,
-            };
+                if (mdl == null || string.IsNullOrWhiteSpace(mdl.Name) || string.IsNullOrWhiteSpace(mdl.Password))
+                {
+                    return BadRequest("Invalid user data.");
+                }
 
-            db.users.Add(emploee);
-            await db.SaveChangesAsync();
-            return Ok(new { emploee, id = emploee.Id });
+                var user = new User
+                {
+                    Name = mdl.Name,
+                    Email = mdl.Email,
+                    Password = mdl.Password,
+                    Phone = mdl.Phone,
+                   // Major = mdl.Major
+                };
+
+                db.users.Add(user);
+                await db.SaveChangesAsync(); // أولاً نحفظ المستخدم للحصول على User.Id
+
+                if (mdl.Image != null && mdl.Image.Length > 0)
+                {
+                    using var stream = new MemoryStream();
+                    await mdl.Image.CopyToAsync(stream);
+
+                    var userImage = new UserImage
+                    {
+                        Name = mdl.Image.FileName,
+                        ContentType = mdl.Image.ContentType,
+                        Image = stream.ToArray(),
+                        UserId = user.Id
+                    };
+
+                    db.Userimg.Add(userImage);
+                    await db.SaveChangesAsync(); // نحفظ الصورة بعد حفظ المستخدم
+                }
+
+                return Ok(new
+                {
+                    user.Id,
+                    user.Name,
+                    user.Email,
+                    HasImage = mdl.Image != null
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    message = ex.Message,
+                    stackTrace = ex.StackTrace
+                });
+            }
         }
+
+
 
         //login by user "Authentication".............
         [HttpGet]
@@ -71,17 +130,20 @@ namespace backend_web.Controllers
             });
         }
 
-        //Get user with your products.......
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(int id)
         {
             var user = await db.users
-            .Include(u => u.products)
-                .ThenInclude(p => p.Images)
-            .FirstOrDefaultAsync(u => u.Id == id);
+                .Include(u => u.products)
+                    .ThenInclude(p => p.Images)
+                .Include(u => u.Images) // ← تضمين صور المستخدم
+                .FirstOrDefaultAsync(u => u.Id == id);
 
             if (user == null)
                 return NotFound("User not found.");
+
+            // جلب أول صورة (إن وجدت)
+            var userImage = user.Images?.FirstOrDefault();
 
             return Ok(new
             {
@@ -90,6 +152,15 @@ namespace backend_web.Controllers
                 user.Email,
                 user.Phone,
                 user.Password,
+                user.Major,
+
+                ProfileImage = userImage == null ? null : new
+                {
+                    userImage.Name,
+                    ImageBase64 = Convert.ToBase64String(userImage.Image),
+                    userImage.ContentType
+                },
+
                 Products = user.products.Select(p => new
                 {
                     p.Id,
@@ -103,41 +174,54 @@ namespace backend_web.Controllers
                         i.Name,
                         ImageBase64 = Convert.ToBase64String(i.image),
                         i.ContentType
-                    })//#######################
-
+                    }).ToList()
                 }).ToList()
             });
         }
 
-        //Update data User...............
+
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] mdlUser mdl)
         {
-            // البحث عن المستخدم في قاعدة البيانات
-            var user = await db.users.FindAsync(id);
+            var user = await db.users
+                .Include(u => u.Images) // لجلب الصورة القديمة
+                .FirstOrDefaultAsync(u => u.Id == id);
+
             if (user == null)
-            {
                 return NotFound(new { message = "User not found." });
+
+            // تحديث البيانات النصية
+            if (!string.IsNullOrEmpty(mdl.Name)) user.Name = mdl.Name;
+            if (!string.IsNullOrEmpty(mdl.Email)) user.Email = mdl.Email;
+            if (!string.IsNullOrEmpty(mdl.Phone)) user.Phone = mdl.Phone;
+            if (!string.IsNullOrEmpty(mdl.Major)) user.Major = mdl.Major;
+
+            // ✅ تحديث الصورة إذا تم إرسالها
+            if (mdl.Image != null && mdl.Image.Length > 0)
+            {
+                // حذف الصورة القديمة (اختياري)
+                var oldImage = user.Images.FirstOrDefault();
+                if (oldImage != null)
+                {
+                    db.Userimg.Remove(oldImage);
+                }
+
+                using var ms = new MemoryStream();
+                await mdl.Image.CopyToAsync(ms);
+
+                var newImage = new UserImage
+                {
+                    Name = mdl.Image.FileName,
+                    ContentType = mdl.Image.ContentType,
+                    Image = ms.ToArray(),
+                    UserId = user.Id
+                };
+
+                db.Userimg.Add(newImage);
             }
 
-            // تحديث الحقول إذا تم إرسالها فقط
-            if (!string.IsNullOrEmpty(mdl.Name))
-            {
-                user.Name = mdl.Name;
-            }
-            if (!string.IsNullOrEmpty(mdl.Email))
-            {
-                user.Email = mdl.Email;
-            }
-            if (!string.IsNullOrEmpty(mdl.Phone))
-            {
-                user.Phone = mdl.Phone;
-            }
-
-            // حفظ التعديلات
             await db.SaveChangesAsync();
 
-            // إرجاع رسالة مع القيم المحدثة
             return Ok(new
             {
                 message = "User updated successfully",
@@ -146,15 +230,17 @@ namespace backend_web.Controllers
                     user.Id,
                     user.Name,
                     user.Email,
-                    user.Phone
+                    user.Phone,
+                    user.Major
                 }
             });
         }
 
 
 
+
         //delete user...............
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             // البحث عن المستخدم في قاعدة البيانات
@@ -211,39 +297,7 @@ namespace backend_web.Controllers
             }
         }
 
-        //لاضافة الاعجاب لمنتج في حساب مستخد معين
-       /* [HttpPost("AddLike")]
-        public async Task<IActionResult> AddLike([FromBody] AddLikeDto likeDto)
-        {
-            try
-            {
-                // التحقق من وجود الإعجاب مسبقًا
-                var existingLike = await db.LikedProducts
-                    .FirstOrDefaultAsync(lp => lp.UserId == likeDto.UserId && lp.ProductId == likeDto.ProductId);
-
-                if (existingLike != null)
-                {
-                    return BadRequest("الإعجاب موجود مسبقًا.");
-                }
-
-                // إضافة الإعجاب
-                var likedProduct = new LikedProduct
-                {
-                    UserId = likeDto.UserId,
-                    ProductId = likeDto.ProductId,
-                };
-
-                db.LikedProducts.Add(likedProduct);
-                await db.SaveChangesAsync();
-
-                return Ok("تم إضافة الإعجاب بنجاح.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"حدث خطأ أثناء إضافة الإعجاب: {ex.Message}");
-            }
-        }
-        */
+       
        
         [HttpPost("ToggleLike")]
         public async Task<IActionResult> ToggleLike([FromBody] AddLikeDto likeDto)
@@ -280,6 +334,10 @@ namespace backend_web.Controllers
                 return StatusCode(500, $"حدث خطأ أثناء تبديل حالة الإعجاب: {ex.Message}");
             }
         }
+
+
+
+
 
     }
 

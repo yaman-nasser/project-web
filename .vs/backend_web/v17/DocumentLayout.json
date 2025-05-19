@@ -3,48 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\mdlproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\mdlproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\mdluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\mdluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\lostitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\lostitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\mdlmdllikedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\mdlmdllikedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\migrations\\20250516115326_lostitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\migrations\\20250516115326_lostitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\backend_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\backend_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\userimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\userimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\lostitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\lostitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\lostitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\lostitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\lostitemimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\lostitemimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\bookexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\bookexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\wwwroot\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\wwwroot\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\webdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\helpers\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\helpers\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\bookexchangepostreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\bookexchangepostreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\commentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\commentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\bookexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\bookexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\mdlproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\mdlproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\bookexchangepostcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\bookexchangepostcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\model\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\model\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\likedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\likedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|c:\\users\\yaman\\onedrive\\desktop\\project_1\\backendnew\\backend_web\\backend_web\\data\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B38FA0-F52A-4AA8-B1EC-7B31FCDA46F8}|backend_web\\backend_web.csproj|solutionrelative:backend_web\\data\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +126,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1077,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "mdlmdlLikeDto.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlmdlLikeDto.cs",
-              "RelativeDocumentMoniker": "backend_web\\Model\\mdlmdlLikeDto.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlmdlLikeDto.cs",
-              "RelativeToolTip": "backend_web\\Model\\mdlmdlLikeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T21:01:03.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mdlProduct.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlProduct.cs",
-              "RelativeDocumentMoniker": "backend_web\\Model\\mdlProduct.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlProduct.cs",
-              "RelativeToolTip": "backend_web\\Model\\mdlProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T21:00:31.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "backend_web.csproj",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\backend_web.csproj",
-              "RelativeDocumentMoniker": "backend_web\\backend_web.csproj",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\backend_web.csproj",
-              "RelativeToolTip": "backend_web\\backend_web.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-04T20:58:44.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LikedProduct.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LikedProduct.cs",
-              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\LikedProduct.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LikedProduct.cs",
-              "RelativeToolTip": "backend_web\\Data\\Models\\LikedProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:34:49.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageModel.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\ImageModel.cs",
-              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\ImageModel.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\ImageModel.cs",
-              "RelativeToolTip": "backend_web\\Data\\Models\\ImageModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:34:00.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\User.cs",
-              "RelativeToolTip": "backend_web\\Data\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:26:33.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "backend_web\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\ProductController.cs",
               "RelativeToolTip": "backend_web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAAABkBAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T21:03:30.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T15:00:01.309Z",
+              "IsPinned": true
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "backend_web\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\UserController.cs",
-              "RelativeToolTip": "backend_web\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAM0AAAAAZGZmZmYGwPcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T21:02:50.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "mdlUser.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlUser.cs",
-              "RelativeDocumentMoniker": "backend_web\\Model\\mdlUser.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlUser.cs",
-              "RelativeToolTip": "backend_web\\Model\\mdlUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:59:41.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Product.cs",
-              "RelativeToolTip": "backend_web\\Data\\Models\\Product.cs",
-              "ViewState": "AQIAAAwAAABgZmZmZmYiwBIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:32:57.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WebDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\WebDbContext.cs",
-              "RelativeDocumentMoniker": "backend_web\\Data\\WebDbContext.cs",
-              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\WebDbContext.cs",
-              "RelativeToolTip": "backend_web\\Data\\WebDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:24:02.26Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 452,
-          "SelectedChildIndex": -1,
-          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -202,6 +148,353 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\User.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAADg//////8PwAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T10:10:17.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserImage.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\UserImage.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\UserImage.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\UserImage.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\UserImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:04:53.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250516115326_LostItems.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Migrations\\20250516115326_LostItems.cs",
+              "RelativeDocumentMoniker": "backend_web\\Migrations\\20250516115326_LostItems.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Migrations\\20250516115326_LostItems.cs",
+              "RelativeToolTip": "backend_web\\Migrations\\20250516115326_LostItems.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBYAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:03:19.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mdlUser.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlUser.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\mdlUser.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlUser.cs",
+              "RelativeToolTip": "backend_web\\Model\\mdlUser.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA1wBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:32:10.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LostItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\LostItemDto.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\LostItemDto.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\LostItemDto.cs",
+              "RelativeToolTip": "backend_web\\Model\\LostItemDto.cs",
+              "ViewState": "AQIAAAYAAABgZmZmZmYkwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:57:21.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "backend_web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "backend_web\\Controllers\\UserController.cs",
+              "ViewState": "AQIAALgAAAAAkJmZmZnZv+AAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:36:13.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Message.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\Message.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:31:01.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LostItem.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LostItem.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\LostItem.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LostItem.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\LostItem.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA0PRQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:44:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LostItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\LostItemsController.cs",
+              "RelativeDocumentMoniker": "backend_web\\Controllers\\LostItemsController.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\LostItemsController.cs",
+              "RelativeToolTip": "backend_web\\Controllers\\LostItemsController.cs",
+              "ViewState": "AQIAACUAAACAmZmZmZktwCEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:54:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LostItemImage.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LostItemImage.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\LostItemImage.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LostItemImage.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\LostItemImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:47:58.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookExchangeController.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\BookExchangeController.cs",
+              "RelativeDocumentMoniker": "backend_web\\Controllers\\BookExchangeController.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\BookExchangeController.cs",
+              "RelativeToolTip": "backend_web\\Controllers\\BookExchangeController.cs",
+              "ViewState": "AQIAAEkAAAAAmpmZmZkZwFkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:38:13.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\WebDbContext.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\WebDbContext.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\WebDbContext.cs",
+              "RelativeToolTip": "backend_web\\Data\\WebDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:31:36.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Product.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\Product.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwBMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T10:10:37.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "chat.html",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\chat.html",
+              "RelativeDocumentMoniker": "backend_web\\wwwroot\\chat.html",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\chat.html",
+              "RelativeToolTip": "backend_web\\wwwroot\\chat.html",
+              "ViewState": "AQIAAOoAAAAAZmZmZmYkwPIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-15T10:12:19.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "backend_web\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "backend_web\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAB4AAABoZmZmZmYwwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:42:24.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "backend_web\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "backend_web\\Controllers\\MessageController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:45:44.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Program.cs",
+              "RelativeDocumentMoniker": "backend_web\\Program.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Program.cs",
+              "RelativeToolTip": "backend_web\\Program.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:45:44.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomUserIdProvider.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Helpers\\CustomUserIdProvider.cs",
+              "RelativeDocumentMoniker": "backend_web\\Helpers\\CustomUserIdProvider.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Helpers\\CustomUserIdProvider.cs",
+              "RelativeToolTip": "backend_web\\Helpers\\CustomUserIdProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:49:59.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookExchangePostReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\BookExchangePostReadDto.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\BookExchangePostReadDto.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\BookExchangePostReadDto.cs",
+              "RelativeToolTip": "backend_web\\Model\\BookExchangePostReadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:34:15.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookExchange.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\BookExchange.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\BookExchange.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\BookExchange.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\BookExchange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:29:50.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\CommentDtos.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\CommentDtos.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\CommentDtos.cs",
+              "RelativeToolTip": "backend_web\\Model\\CommentDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:39:48.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Rating.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T18:36:04.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "mdlProduct.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlProduct.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\mdlProduct.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\mdlProduct.cs",
+              "RelativeToolTip": "backend_web\\Model\\mdlProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:35:20.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookExchangePostCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\BookExchangePostCreateDto.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\BookExchangePostCreateDto.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\BookExchangePostCreateDto.cs",
+              "RelativeToolTip": "backend_web\\Model\\BookExchangePostCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:33:28.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddRatingDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\AddRatingDto.cs",
+              "RelativeDocumentMoniker": "backend_web\\Model\\AddRatingDto.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Model\\AddRatingDto.cs",
+              "RelativeToolTip": "backend_web\\Model\\AddRatingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:13:22.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LikedProduct.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LikedProduct.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\LikedProduct.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\LikedProduct.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\LikedProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:37:15.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "backend_web\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "backend_web\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIBJwD4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:33:52.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "backend_web\\Data\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\Data\\Models\\Comment.cs",
+              "RelativeToolTip": "backend_web\\Data\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:28:36.594Z"
             }
           ]
         }

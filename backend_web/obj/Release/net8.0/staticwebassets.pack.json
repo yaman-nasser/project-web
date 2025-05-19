@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\chat.html",
+      "PackagePath": "staticwebassets\\chat.html"
+    },
+    {
+      "Id": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\images\\00838ad1-8d00-4d05-b7e1-26b9e671e7a1.jpeg",
+      "PackagePath": "staticwebassets\\images\\00838ad1-8d00-4d05-b7e1-26b9e671e7a1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\images\\1dece2c8357bdd7cee3b15036344faf5.jpg",
+      "PackagePath": "staticwebassets\\images\\1dece2c8357bdd7cee3b15036344faf5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\images\\698a92cf-a965-4755-b019-0d76c93fd514.jpeg",
+      "PackagePath": "staticwebassets\\images\\698a92cf-a965-4755-b019-0d76c93fd514.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yaman\\OneDrive\\Desktop\\project_1\\BackEndnew\\backend_web\\backend_web\\wwwroot\\images\\logo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\logo-removebg-preview.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.backend_web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.backend_web.props",
+      "PackagePath": "build\\backend_web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.backend_web.props",
+      "PackagePath": "buildMultiTargeting\\backend_web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.backend_web.props",
+      "PackagePath": "buildTransitive\\backend_web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

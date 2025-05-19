@@ -17,6 +17,10 @@ namespace backend_web.Data.Models
         //list of images
         public List<ImageModel> Images { get; set; } = new List<ImageModel>();
         public ICollection<LikedProduct> LikedProducts { get; set; }
+        public ICollection<Rating> Ratings { get; set; }
+
+        public ICollection<Comment> comments { get; set; }
+
 
 
         //[ForeignKey("User")]

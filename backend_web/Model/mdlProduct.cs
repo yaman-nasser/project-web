@@ -1,4 +1,6 @@
-﻿namespace backend_web.Model
+﻿using backend_web.Data.Models;
+
+namespace backend_web.Model
 {
     public class mdlProduct
     {
@@ -8,7 +10,9 @@
         public string type { get; set; }
         public string? PHnum { get; set; }
         public List<IFormFile> images { get; set; } // الصور المرفقة
+
         public int userId { get; set; }
+       
 
     }
 }

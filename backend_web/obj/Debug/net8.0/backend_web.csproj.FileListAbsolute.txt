@@ -141,3 +141,9 @@ C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\obj
 C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\obj\Debug\net8.0\backend_web.pdb
 C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\obj\Debug\net8.0\backend_web.genruntimeconfig.cache
 C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\obj\Debug\net8.0\ref\backend_web.dll
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\obj\Debug\net8.0\backend_web.sourcelink.json
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\bin\Debug\net8.0\publish\web.config
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\bin\Debug\net8.0\publish\backend_web.deps.json
+C:\Users\yaman\OneDrive\Desktop\project_1\BackEndnew\backend_web\backend_web\bin\Debug\net8.0\publish\backend_web.runtimeconfig.json

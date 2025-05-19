@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGWH5xYEaIkKsFmHPHDcWaAAAAAACAAAAAAAQZgAAAAEAACAAAABhpyAFVcR4HWY+WhCeNkAWVuaELXnK/T+u64WMLUobSAAAAAAOgAAAAAIAACAAAADHz+RS1gUXdyDe9Lvb62evtmOSGULKfaXDqa9EpGhGRYAAAADjScbCZ4QfX8mhTGlNhb9M3hceIAKPR9h1TJ4d4lJXwvbFr4oxPUfhY2vUVcQPKtQFATaE8Y4Wdr+sLutKIGmN+9gNNK5zYmMHsYq/8j19mz77lwQDipsvbpZr9DlQbAP5EoKdchOmpH0iojUwMnm9G3JzAyKG1iIOBpsUXOys+UAAAACuTdJyLOMuoz+MXtRgtZlZhiLvMZIc0Rz7iuvvD5btR1xHg7jaI558Rd/v6rL1x+udVtlVCgNwAcDfjnwQr8K5</EncryptedPassword>
+    <History>False|2025-03-28T22:25:35.2107703Z||;False|2025-03-29T01:05:53.0660208+03:00||;False|2025-03-29T00:10:54.4908267+03:00||;False|2025-03-28T23:49:31.7133578+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:backendweb20250327005712.azurewebsites.net,1433%3bDatabase=WebProject_1%3bUser ID=myuser%3bPassword=uvstor10#%3bEncrypt=True%3bTrustServerCertificate=False%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="backend_web.Data.WebDbContext">
+      <Value>Server=tcp:backendweb20250327005712.azurewebsites.net,1433%3bDatabase=WebProject_1%3bUser ID=myuser%3bPassword=uvstor10#%3bEncrypt=True%3bTrustServerCertificate=False%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

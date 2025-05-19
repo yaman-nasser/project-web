@@ -4,6 +4,9 @@ namespace backend_web.Model
 {
     public class mdlUser
     {
+        [Key]
+        public int Id { get; set; }
+
         [MaxLength(100)]
         public string? Name { get; set; }
         public string? Email { get; set; }
@@ -12,5 +15,9 @@ namespace backend_web.Model
         public string? Password { get; set; }
         [RegularExpression(@"^(077|078|079)\d{7}$", ErrorMessage = "Phone number must start with 077, 078, or 079 and contain exactly 10 digits")]
         public string? Phone { get; set; }
+        public string? Major { get; set; }
+        public int PostCount { get; set; }
+
+        public IFormFile? Image { get; set; } // صورة واحدة فقط
     }
 }

@@ -4,6 +4,8 @@ using backend_web.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using backend_web.Migrations;
 
 
 namespace backend_web.Controllers
@@ -24,12 +26,16 @@ namespace backend_web.Controllers
 
 
         //Get all products...............
-        [HttpGet]
-        public async Task<IActionResult> AllProductsWithImages()
+        [HttpGet("All")]
+        public async Task<IActionResult> AllProductsWithImages([FromQuery] int userId)
         {
-            // جلب جميع المنتجات مع الصور المرتبطة بها
             var products = await db.products
-                .Include(p => p.Images)  // تضمين الصور المرتبطة بكل منتج
+                .Include(p => p.Images)
+                .ToListAsync();
+
+            var likedProductIds = await db.LikedProducts
+                .Where(lp => lp.UserId == userId)
+                .Select(lp => lp.ProductId)
                 .ToListAsync();
 
             if (products == null || !products.Any())
@@ -37,7 +43,6 @@ namespace backend_web.Controllers
                 return NotFound("لا توجد منتجات.");
             }
 
-            // تحويل المنتجات إلى الشكل المطلوب ليشمل الصور وبيانات المنتج
             var result = products.Select(p => new
             {
                 p.Id,
@@ -46,17 +51,18 @@ namespace backend_web.Controllers
                 p.price,
                 p.type,
                 p.PHnum,
-                Images = p.Images.Select(i => new
+                p.UserId,
+                isLiked = likedProductIds.Contains(p.Id),
+                Images = p.Images.Select(i => new  // عدّل هنا لاستخدام Images بدلاً من Image
                 {
                     i.Name,
-                    ImageBase64 = Convert.ToBase64String(i.image),  // تحويل البيانات الثنائية إلى Base64 لعرض الصورة
+                    ImageBase64 = Convert.ToBase64String(i.image),
                     i.ContentType
-                }).ToList()
+                }).ToList()  // تأكد من إرجاع مصفوفة حتى لو كانت فارغة
             }).ToList();
 
             return Ok(result);
         }
-
 
 
         //Get product by id-product...............
@@ -78,6 +84,7 @@ namespace backend_web.Controllers
                 product.caption,
                 product.type,
                 product.UserId,
+                ImagesCount = product.Images.Count,
                 Images = product.Images.Select(i => new
                 {
                     i.Name,
@@ -259,28 +266,102 @@ namespace backend_web.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            // البحث عن المنتج في قاعدة البيانات
-            var product = await db.products
-                .Include(p => p.LikedProducts) // تضمين جدول الإعجابات المرتبطة بالمنتج
-                .FirstOrDefaultAsync(p => p.Id == id);
-
-            if (product == null)
+            try
             {
-                return NotFound(new { message = "Product not found." });
+                var product = await db.products
+                    .Include(p => p.Images)
+                    .Include(p => p.LikedProducts)
+                    .Include(p => p.Ratings)
+                    .Include(p => p.comments)
+                    .FirstOrDefaultAsync(p => p.Id == id);
+
+                if (product == null)
+                    return NotFound("المنتج غير موجود");
+
+                db.Images.RemoveRange(product.Images);
+                db.LikedProducts.RemoveRange(product.LikedProducts);
+                db.ratings.RemoveRange(product.Ratings);
+                db.comments.RemoveRange(product.comments);
+
+                // حذف المنتج نفسه (لكن لا نحذف المستخدم المرتبط به)
+                db.products.Remove(product);
+
+                await db.SaveChangesAsync();
+
+                return NoContent(); // 204
             }
-
-            // حذف جميع الإعجابات المرتبطة بالمنتج
-            db.LikedProducts.RemoveRange(product.LikedProducts);
-
-            // حذف المنتج نفسه
-            db.products.Remove(product);
-
-            // حفظ التغييرات في قاعدة البيانات
-            await db.SaveChangesAsync();
-
-            return Ok(new { message = "Product and its associated likes deleted successfully." });
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"خطأ داخلي: {ex.Message}");
+            }
         }
 
+
+
+
+
+        // POST: api/Product/rate
+        [HttpPost("rate")]
+        public async Task<IActionResult> RateProduct([FromBody] AddRatingDto dto)
+        {
+            if (dto.Rating < 1 || dto.Rating > 5)
+                return BadRequest("Rating must be between 1 and 5.");
+
+            var productExists = await db.products.AnyAsync(p => p.Id == dto.ProductId);
+            var userExists = await db.users.AnyAsync(u => u.Id == dto.UserId);
+
+            if (!productExists || !userExists)
+                return NotFound("Product or User not found.");
+
+            var existingRating = await db.ratings
+                .FirstOrDefaultAsync(r => r.ProductId == dto.ProductId && r.UserId == dto.UserId);
+
+            if (existingRating != null)
+            {
+                existingRating.RatingValue = dto.Rating;
+
+            }
+            else
+            {
+                var rating = new Rating
+                {
+                    ProductId = dto.ProductId,
+                    UserId = dto.UserId,
+                    RatingValue = dto.Rating,
+
+                };
+                db.ratings.Add(rating);
+            }
+
+            await db.SaveChangesAsync();
+            return Ok("Rating submitted successfully.");
+        }
+
+        // GET: api/Product/{id}/average-rating
+        [HttpGet("{id}/average-rating")]
+        public async Task<IActionResult> GetAverageRating(int id)
+        {
+            var ratings = await db.ratings
+                .Where(r => r.ProductId == id)
+                .ToListAsync();
+
+            if (ratings.Count == 0)
+            {
+                return Ok(new
+                {
+                    average = 0,
+                    count = 0
+                });
+            }
+
+            double average = ratings.Average(r => r.RatingValue);
+
+            return Ok(new
+            {
+                average = Math.Round(average, 2),
+                count = ratings.Count
+            });
+        }
 
 
     }
